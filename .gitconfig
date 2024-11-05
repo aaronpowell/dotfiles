@@ -17,6 +17,7 @@
     wip = !git add -u && git commit -m "WIP"
     amend = commit -a --amend
     wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+    bl = !git for-each-ref --sort=-committerdate --format='%(refname:short)' refs/heads/
 
 [core]
     askpass = /usr/libexec/git-core/git-gui--askpass
