@@ -132,4 +132,5 @@ alias ghcs="gh copilot suggest -t shell"
 # fnm
 export PATH="/home/aaron/.local/share/fnm:$PATH"
 eval "`fnm env`"
+export PATH=$PATH:/home/aaron/.local/bin
 eval "$(oh-my-posh init zsh --config /mnt/e/OneDrive/oh-my-posh.json)"
